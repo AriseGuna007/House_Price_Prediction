@@ -1,0 +1,44 @@
+House-Price-Prediction-Docker/ Project Arc
+
+
+│
+├── data/
+│   └── train.csv
+│
+├── notebooks/
+│   └── EDA.ipynb
+│
+├── src/
+│
+│   ├── preprocessing.py
+│   │
+│   ├── feature_engineering.py
+│   │
+│   ├── train.py
+│   │
+│   ├── evaluate.py
+│   │
+│   └── predict.py
+│
+│
+├── mlruns/
+│   └── MLflow experiments
+│
+│
+├── models/
+│   └── house_price_model.pkl
+│
+│
+├── api/
+│
+│   ├── main.py
+│   └── schema.py
+│
+│
+├── Dockerfile
+│
+├── requirements.txt
+│
+├── docker-compose.yml
+│
+└── README.md
